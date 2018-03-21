@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Foo.create(:name => "test1")
+Foo.create(:name => "test2")
+Foo.create(:name => "test3")
+City.create(:name => "Baltimore")
